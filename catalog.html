@@ -9,12 +9,12 @@
   <body>
     <header class="main-header">
       <nav class="navigation">
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
           <img src="img/empty.svg" width="140" height="70" alt="Логотип Седона">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="main.html">Главная</a>
+            <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="about.html">О нас</a>
@@ -29,8 +29,8 @@
             </a>
           </li>
           <li class="navigation-item">
-            <button class="navigation-item" type="button"><span class="visually-hidden">Избранное</span>
-            </button>
+            <a class="navigation-item" type="button"><span class="visually-hidden">Избранное</span>
+            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">Вход</a>
@@ -57,7 +57,7 @@
             <ul class="hotels-filter-list">
               <li class="hotel-filters-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="swiminng-pool" checked>Бассейн</label>
+                  <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн</label>
               </li>
               <li class="hotel-filters-item">
                 <label class="control">
@@ -91,13 +91,13 @@
         </form>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
-          <option value="chep">Сначала дешовое</option>
-          <option value="expensiv">Сначала дорогое</option>
+          <option value="cheap">Сначала дешёвое</option>
+          <option value="expensive">Сначала дорогое</option>
         </select>
-        <a href="#" class="button button-light">
+        <a class="button button-light" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
-        <a href="#" class="button button-light">
+        <a class="button button-light" href="#">
           <span class="visually-hidden">Показать подробно</span>
         </a>
         <a class="button" href="#">
@@ -113,7 +113,7 @@
             <a class="hotel-card-button" href="#">Подробнее</a>
             <button class="navigation-item" type="button"><span>Избранное</span>
             </button>
-            <p><img class="hotel-raiting" src="" alt="#">
+            <p><img class="hotel-rating" src="" alt="#">
               РЕЙТИНГ:8,5</p>
           </li>
           <li class="hotel-card">
