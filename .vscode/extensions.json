@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "EditorConfig.EditorConfig"
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker-russian",
+    "streetsidesoftware.code-spell-checker-canadian-english"
   ]
 }
