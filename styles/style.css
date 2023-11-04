@@ -16,29 +16,51 @@
 
 
 body {
-  background-color:"#F2F2F2";
+  background-color: "#F2F2F2";
   font-family: "PT sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color:black;
+  color: black;
   background-color: white;
+
 }
 
-.main-header{
-  background-color:white;
-  color:black;
+.main-header {
+  background-color: white;
+  color: black;
 }
-.navigation-link{
-  background-color:"#F2F2F2";
+
+.navigation-link {
+  background-color: "#F2F2F2";
   font-family: "PT sans", sans-serif;
   line-height: 22px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
-  color:black;
+  color: black;
   background-color: white;
 
 }
-.hero{
-  background-image: url ("../images/index-background.jpg");
+
+.hero {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 1200px;
+  height: 485px;
+
+}
+.advantages{
+  font-family: "PT sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.advantages p{
+  font-family: "PT sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
