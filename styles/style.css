@@ -14,32 +14,23 @@
   font-display: swap;
 }
 
+.logo {
+  padding-right: 70px;
+}
 
 body {
-  background-color: "#F2F2F2";
+  background-color: #F2F2F2;
   font-family: "PT sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: black;
-  background-color: white;
-
-}
-
-.main-header {
-  background-color: white;
-  color: black;
-}
-
-.navigation-link {
-  background-color: "#F2F2F2";
-  font-family: "PT sans", sans-serif;
-  line-height: 22px;
-  font-weight: 700;
   text-align: center;
-  text-decoration: none;
-  color: black;
-  background-color: white;
+  padding: 40px;
 
+}
+
+Ul {
+  list-style-type: none;
 }
 
 .hero {
@@ -50,17 +41,13 @@ body {
   height: 485px;
 
 }
-.advantages{
-  font-family: "PT sans", sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-.advantages p{
-  font-family: "PT sans", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
+
+.Subscribe {
+  background-image: url("../images/blurred-background.png");
+  width: 1200px;
+  height: 414.856px;
+  padding: 96px 258px 104px 258px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
 }
