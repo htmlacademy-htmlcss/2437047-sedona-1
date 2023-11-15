@@ -2,7 +2,7 @@
   font-family: "PT sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,43 +10,32 @@
   font-family: "PT sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-family: "PT sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: black;
-  text-align: center;
-  padding: 40px;
-
-}
-
-.logo {
-  padding-right: 70px;
+  color: #000000;
 }
 
 .hero {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
-  text-align: center;
   width: 1200px;
   height: 485px;
-
 }
 
-.Subscribe-title{
+.subscribe-title{
   background-image: url("../images/blurred-background.png");
   width: 1200px;
-  height: 414.856px;
   padding-top: 96px;
   padding-bottom: 104px;
   background-repeat: no-repeat;
-  text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .hotel-filters{
@@ -54,12 +43,3 @@ body {
   background-repeat: no-repeat;
   width: 1200px;
 }
-
-div#advantages-true-city {
-  width: 400px;
-  height: 385px;
-  border: 1px solid;
-  background: #82B3D3;
-  padding: 103px, 85px, 103px, 85px
-
-  }
