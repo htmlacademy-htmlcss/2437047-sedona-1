@@ -21,32 +21,8 @@ body {
   line-height: 24px;
   color: #000000;
 }
+/*HEADER*/
 
-.hero {
-  background-image: url("../images/index-background.jpg");
-  background-repeat: no-repeat;
-  width: 1200px;
-  height: 485px;
-}
-
-.subscribe-title {
-  background-image: url("../images/blurred-background.png");
-  width: 1200px;
-  background-repeat: no-repeat;
-  color: #ffffff;
-}
-/*NAVIGATION*/
-.hotel-filters-item {
-  background-image: url("../images/blurred-background.png");
-  background-repeat: no-repeat;
-  width: 1200px;
-}
-.navigation-button {
-  line-height: 20px;
-  font-weight: 700px;
-  text-transform: uppercase;
-  color:#ffffff;
-}
 .navigation-link {
 font-size: 20px;
 font-weight: 700;
@@ -54,16 +30,31 @@ text-transform: uppercase;
 color:#000000;
 }
 
-.navigation-link-favourites {
-  background-image: url(../images/icons-favourites.svg);
-  background-repeat: no-repeat;
-  
-}
-
 .navigation-link-search {
   background-image: url(../images/icons-search.svg);
   background-repeat: no-repeat;
 }
+.navigation-link-favourites {
+  background-image: url(../images/icons-favourites.svg);
+  background-repeat: no-repeat;
+}
+
+.navigation-button {
+  line-height: 20px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*HERO*/
+.hero {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+}
+
+
 /*ADVANTAGES*/
 .advantages-list h3 {
 font-size: 24px;
@@ -87,6 +78,7 @@ color:#000000;
 color:#ffffff;  
 }
 
+/*SEARCH*/
 .search h2 {
 font-size: 30px;
 font-weight: 700;
@@ -110,6 +102,15 @@ text-transform: uppercase;
 color:#ffffff;
 }
 
+/*SUBSCRIBES*/
+.subscribe-title {
+  background-image: url("../images/blurred-background.png");
+  width: 1200px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+/*FOOTER*/
 .footer-telehone-number {
 font-size: 40px;
 font-weight: 400;
@@ -130,6 +131,8 @@ background-repeat: no-repeat;
   background-image: url(../images/ytu.svg);
   background-repeat: no-repeat; 
 }
+
+/*CATALOG*/
 
 .inner-header-title {
   font-size: 60px;
@@ -180,3 +183,11 @@ font-weight: 400;
 line-height: 20px;
 text-transform: uppercase;
 }
+
+/*FILTER-CATALOG*/
+.hotel-filters-item {
+  background-image: url("../images/blurred-background.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+}
+
