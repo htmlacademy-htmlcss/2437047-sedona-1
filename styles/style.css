@@ -21,6 +21,20 @@ body {
   line-height: 24px;
   color: #000000;
 }
+
+.button-vk {
+background-image: url(../images/vk.svg);
+background-repeat: no-repeat;
+}
+.button-tg {
+  background-image: url(../images/telegramm.svg);
+  background-repeat: no-repeat;
+}
+.button-yt {
+  background-image: url(../images/ytu.svg);
+  background-repeat: no-repeat; 
+}
+
 /*HEADER*/
 
 .navigation-link {
@@ -119,18 +133,6 @@ text-transform: uppercase;
 color: #000000;
 }
 
-.button-vk {
-background-image: url(../images/vk.svg);
-background-repeat: no-repeat;
-}
-.button-tg {
-  background-image: url(../images/telegramm.svg);
-  background-repeat: no-repeat;
-}
-.button-yt {
-  background-image: url(../images/ytu.svg);
-  background-repeat: no-repeat; 
-}
 
 /*CATALOG*/
 
