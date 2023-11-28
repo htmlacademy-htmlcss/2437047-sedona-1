@@ -23,6 +23,15 @@ body {
 }
 
 /*HEADER*/
+.header-navigation{
+  display:flex;
+}
+.navigation-list{
+  display: flex;
+}
+.navigation-user{
+  display: flex;
+}
 
 .navigation-link {
   font-size: 20px;
@@ -58,6 +67,17 @@ body {
 
 
 /*ADVANTAGES*/
+.advantages-list{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.advantages-list-no-photo{
+display:flex;  
+}
+
 .advantages-list h3 {
   font-size: 24px;
   font-style: normal;
@@ -78,6 +98,10 @@ body {
 
 .advantages-photo p {
   color: #ffffff;
+}
+
+.comfort-list{
+  display: flex;
 }
 
 /*SEARCH*/
@@ -113,6 +137,14 @@ body {
 }
 
 /*FOOTER*/
+.footer-social{
+  display: flex;
+}
+
+.footer-social-list {
+  display: flex;
+}
+
 .footer-social-link {
   background-repeat: no-repeat;
 }
@@ -149,13 +181,14 @@ body {
 
 /*BREADCRUMBS*/
 .breadcrumbs {
+  display: flex;
   font-size: 16px;
   font-weight: 400;
   line-height: 21px;
   color: #ffffff;
 }
 
-.hotels-filter-title {
+.hotels-filter-title { 
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -203,4 +236,14 @@ body {
   background-image: url("../images/blurred-background.png");
   background-repeat: no-repeat;
   width: 1200px;
+}
+
+.hotel-list{
+  width:110%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.pagination{
+  display:flex;
 }

@@ -9,34 +9,36 @@
 
 <body>
   <header class="main-header">
-    <a class="logo">
-      <img src="images/logo.svg" width="140" height="70" alt="Логотип Седона">
-    </a>
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главная</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="about.html">О нас</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html">Гостиницы</a>
-        </li>
-      </ul>
-      <ul class="navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link-search" href="#"><span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link-favourites" href="#"><span class="visually-hidden">Избранное</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-button" href="form.html">Хочу Сюда!</a>
-        </li>
-      </ul>
+    <div class="header-navigation">
+      <a class="logo">
+        <img src="images/logo.svg" width="140" height="70" alt="Логотип Седона">
+      </a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О нас</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <div class="navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link-search" href="#"><span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link-favourites" href="#"><span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-button" href="form.html">Хочу Сюда!</a>
+          </li>
+        </div>
+    </div>
     </nav>
   </header>
   <main>
@@ -57,18 +59,20 @@
             <img src="images/photo-1.jpg" width="800" height="385" alt="Седона настоящий город">
           </div>
         </li>
-        <li class="advantages-item">
-          <h3>Небольшая площадь</h3>
-          <p>Все достопримечательности находятся очень близко</p>
-        </li>
-        <li class="advantages-item">
-          <h3>Красивая дорога</h3>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </li>
-        <li class="advantages-item">
-          <h3>Мало туристов</h3>
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
-        </li>
+        <div class="advantages-list-no-photo">
+          <li class="advantages-item">
+            <h3>Небольшая площадь</h3>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Красивая дорога</h3>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Мало туристов</h3>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </div>
         <div class="advantages-photo">
           <li class="advantages-item">
             <h3>Там есть мост дьявола</h3>
@@ -115,7 +119,7 @@
     </section>
   </main>
   <footer class="main-footer">
-    <div>
+    <div class="footer-social">
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="footer-social-link footer-social-vk" href="https://vk.com/htmlacademy">
