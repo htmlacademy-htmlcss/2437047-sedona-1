@@ -33,7 +33,7 @@ body {
 }
 
 .button-yt {
-  background-image: url("../images/ytu.svg");
+  background-image: url("../images/youtube.svg");
   background-repeat: no-repeat;
 }
 
@@ -128,7 +128,7 @@ body {
 }
 
 /*FOOTER*/
-.footer-telehone-number {
+.footer-telephone-number {
   font-size: 40px;
   font-weight: 400;
   line-height: 40px;
