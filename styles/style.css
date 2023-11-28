@@ -22,21 +22,6 @@ body {
   color: #000000;
 }
 
-.button-vk {
-  background-image: url("../images/vk.svg");
-  background-repeat: no-repeat;
-}
-
-.button-tg {
-  background-image: url("../images/telegramm.svg");
-  background-repeat: no-repeat;
-}
-
-.button-yt {
-  background-image: url("../images/youtube.svg");
-  background-repeat: no-repeat;
-}
-
 /*HEADER*/
 
 .navigation-link {
@@ -128,6 +113,22 @@ body {
 }
 
 /*FOOTER*/
+.footer-social-link {
+  background-repeat: no-repeat;
+}
+
+.footer-social-vk {
+  background-image: url("../images/vk.svg");
+}
+
+.footer-social-tg {
+  background-image: url("../images/telegramm.svg");
+}
+
+.footer-social-yt {
+  background-image: url("../images/youtube.svg");
+}
+
 .footer-telephone-number {
   font-size: 40px;
   font-weight: 400;
@@ -135,7 +136,6 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
-
 
 /*CATALOG*/
 
