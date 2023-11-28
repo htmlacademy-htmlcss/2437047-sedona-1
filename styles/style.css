@@ -23,17 +23,17 @@ body {
 }
 
 .button-vk {
-  background-image: url(../images/vk.svg);
+  background-image: url("../images/vk.svg");
   background-repeat: no-repeat;
 }
 
 .button-tg {
-  background-image: url(../images/telegramm.svg);
+  background-image: url("../images/telegramm.svg");
   background-repeat: no-repeat;
 }
 
 .button-yt {
-  background-image: url(../images/ytu.svg);
+  background-image: url("../images/ytu.svg");
   background-repeat: no-repeat;
 }
 
@@ -47,12 +47,12 @@ body {
 }
 
 .navigation-link-search {
-  background-image: url(../images/icons-search.svg);
+  background-image: url("../images/icons-search.svg");
   background-repeat: no-repeat;
 }
 
 .navigation-link-favourites {
-  background-image: url(../images/icons-favourites.svg);
+  background-image: url("../images/icons-favourites.svg");
   background-repeat: no-repeat;
 }
 
