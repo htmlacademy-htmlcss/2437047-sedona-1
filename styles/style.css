@@ -12,31 +12,37 @@
   font-weight: 700;
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
-}
+} 
 
 html{
   height: 100%;
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
   font-family: "PT sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}  
+
+.main-container {
+  flex-grow: 1; 
 }
 
 .page-container {
-  margin: 0 auto;
-  width: 1200px;
+ width:1200px; 
 }
 
-/*HEADER*/
+/*HEADER*/ 
 .navigation-link {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000;
+  color: #000000; 
 }
 
 .navigation-link-search {
@@ -65,7 +71,7 @@ body {
 }
 
 
-/*ADVANTAGES*/
+/*ADVANTAGES*/ 
 
 .advantages-list h3 {
   font-size: 24px;
