@@ -21,6 +21,7 @@ html{
 .page-container{
  width:1200px;  
  margin: 0 auto;
+ text-align: center;
 }
 
 .main-container{
@@ -90,7 +91,6 @@ body {
   height: 485px;
 }
 
-
 /*ADVANTAGES*/ 
 .advantages-list{
   display: flex;
@@ -111,6 +111,7 @@ body {
 .advantages-photo-2 {
   width: 1200px;
   display: flex;
+  flex-direction: row-reverse;
 }
 
 
@@ -128,8 +129,13 @@ body {
   color: #333333;
 }
 
+.comfort{
+  text-align: center;
+}
+
 .comfort-list{
-  display: flex;  
+  display: flex;
+  justify-content: space-between;
 }
 
 .comfort-item{
@@ -137,6 +143,14 @@ body {
 }
 
 /*SEARCH*/
+.search{
+  display: flex;
+  padding: 96px 258px 104px 258px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .search h2 {
   font-size: 30px;
   font-weight: 700;
@@ -168,34 +182,66 @@ body {
   color: #ffffff;
 }
 
+.subscribe-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*FOOTER*/
 
 .footer-social {
+  margin: 0 auto;
   display: flex;
+  width: 1060px;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 40px 70px 30px 70px;
 }
 
 .footer-social-list {
   display: flex;
+  width: 150px;
+  
 }
 
 .footer-social-link {
   background-repeat: no-repeat;
+  width: 115px;
 }
 
 .footer-social-vk {
   background-image: url("../images/vk.svg");
+  display: flex;
+  padding: 1px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-social-tg {
   background-image: url("../images/telegramm.svg");
+  display: flex;
+  padding: 1px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-social-yt {
   background-image: url("../images/youtube.svg");
+  display: flex;
+  padding: 1px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-telephone-number {
   font-size: 40px;
+  width: 331px;
   font-weight: 400;
   line-height: 40px;
   text-transform: uppercase;
