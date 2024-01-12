@@ -191,19 +191,6 @@ body {
   align-items: center;
 }
 
-/*CATALOG*/
-
-.hotel-filters {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.hotel-list{
-  display: flex;
-  margin: 0 auto;
-}
 
 /*FOOTER*/
 
@@ -266,6 +253,11 @@ body {
 
 /*CATALOG*/
 
+.inner-header{
+  display: flex;
+  margin-bottom: 50px;
+}
+
 .inner-header-title {
   font-size: 60px;
   font-style: normal;
@@ -302,7 +294,8 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  text-transform: uppercase;
+  display: flex;
+  height: 
 }
 
 /*CARD*/
@@ -336,6 +329,14 @@ body {
 .hotel-list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.hotel-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .pagination {
