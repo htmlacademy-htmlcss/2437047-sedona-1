@@ -12,19 +12,19 @@
   font-weight: 700;
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
-} 
-
-html{
-  height: 100%; 
 }
 
-.page-container{
- width:1200px;  
- margin: 0 auto;
- text-align: center;
+html {
+  height: 100%;
 }
 
-.main-container{
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-container {
   flex-grow: 1;
 }
 
@@ -38,23 +38,23 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-}  
+}
 
-/*HEADER*/ 
+/*HEADER*/
 
-.navigation{
-  display:flex;
+.navigation {
+  display: flex;
   margin: 0 auto;
   width: 1060px;
 }
 
-.navigation-list{
+.navigation-list {
   width: 339px;
   margin-left: 30px;
   padding: 0;
 }
 
-.navigation-user{
+.navigation-user {
   max-width: 268px;
   margin-left: auto;
 }
@@ -63,7 +63,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000; 
+  color: #000000;
 }
 
 .navigation-link-search {
@@ -91,16 +91,16 @@ body {
   height: 485px;
 }
 
-/*ADVANTAGES*/ 
-.advantages-list{
+/*ADVANTAGES*/
+.advantages-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   flex-direction: column;
 }
 
-.advantages-item{
+.advantages-item {
   width: 400px;
-
+  display: flex;
 }
 
 .advantages-photo-1 {
@@ -129,21 +129,23 @@ body {
   color: #333333;
 }
 
-.comfort{
+.comfort {
   text-align: center;
 }
 
-.comfort-list{
+.comfort-list {
   display: flex;
   justify-content: space-between;
 }
 
-.comfort-item{
+.comfort-item {
+  display: flex;
+  justify-content: space-between;
   width: 400px;
 }
 
 /*SEARCH*/
-.search{
+.search {
   display: flex;
   padding: 96px 258px 104px 258px;
   flex-direction: column;
@@ -182,11 +184,25 @@ body {
   color: #ffffff;
 }
 
-.subscribe-title{
+.subscribe-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/*CATALOG*/
+
+.hotel-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hotel-list{
+  display: flex;
+  margin: 0 auto;
 }
 
 /*FOOTER*/
@@ -204,7 +220,7 @@ body {
 .footer-social-list {
   display: flex;
   width: 150px;
-  
+
 }
 
 .footer-social-link {
