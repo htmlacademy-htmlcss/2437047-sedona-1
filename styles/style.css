@@ -101,6 +101,12 @@ body {
   flex-direction: column;
 }
 
+.advantages-read{
+  display:flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 400px;
+}
 .advantages-item {
   width: 400px;
   display: flex;
@@ -142,8 +148,6 @@ body {
 }
 
 .comfort-item {
-  display: flex;
-  justify-content: space-between;
   width: 400px;
 }
 
