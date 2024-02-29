@@ -80,7 +80,7 @@ body {
 }
 
 .navigation-link {
-  padding: 24px 19px;
+  padding: 10px;
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -88,12 +88,19 @@ body {
   color: #000000;
 }
 
+.navigation-link .navigation-list{
+  min-width: 16px;
+  min-height: 22px;
+}
+
 .navigation-link-search {
+  padding: 15px 15px;
   background-image: url("../images/icons-search.svg");
   background-repeat: no-repeat;
 }
 
 .navigation-link-favourites {
+  padding: 15px 15px;
   background-image: url("../images/icons-favourites.svg");
   background-repeat: no-repeat;
 }
@@ -115,23 +122,26 @@ body {
 
 /*ADVANTAGES*/
 .advantages-list {
+  padding: 0;
   display: flex;
-  justify-content: start;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .advantages-item {
-  width: 400px;
   display: flex;
 }
 
-.advantages-photo-1 {
-  width: 1200px;
-  display: flex;
+.advantages-read{
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+  height: 385px;
+  justify-content: center;
+  
+  
 }
 
 .advantages-photo-2 {
-  width: 1200px;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -153,15 +163,20 @@ body {
 
 .comfort {
   text-align: center;
+  
 }
 
 .comfort-list {
+  list-style-type: none;
   display: flex;
-  justify-content: space-between;
 }
 
 .comfort-item {
+  display: flex;
+  flex-direction: column;
   width: 400px;
+  height: 385px;
+  justify-content: center;
 }
 
 /*SEARCH*/
@@ -225,6 +240,7 @@ body {
 }
 
 .footer-social-list {
+  list-style-type: none;
   display: flex;
   width: 150px;
 
@@ -238,7 +254,7 @@ body {
 .footer-social-vk {
   background-image: url("../images/vk.svg");
   display: flex;
-  padding: 1px 10px;
+  padding: 10px 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -247,7 +263,7 @@ body {
 .footer-social-tg {
   background-image: url("../images/telegramm.svg");
   display: flex;
-  padding: 1px 10px;
+  padding: 10px 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -256,7 +272,7 @@ body {
 .footer-social-yt {
   background-image: url("../images/youtube.svg");
   display: flex;
-  padding: 1px 10px;
+  padding: 10px 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
