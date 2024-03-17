@@ -41,6 +41,7 @@ html {
 
 .main-container {
   flex-grow: 1;
+  margin-top: 64px;
 }
 
 body {
@@ -61,10 +62,13 @@ body {
   display: flex;
   margin: 0 auto;
   width: 1060px;
+  position: absolute;
+  height: 64px;
 }
 
 .navigation-list {
   display: flex;
+  align-content: center;
   flex-wrap: wrap;
   margin-left: 30px;
   padding: 0;
@@ -151,7 +155,7 @@ body {
 
 .advantages-item:nth-child(1) {
   background-color: #83b3d3;
-  color: #FFFFFF;
+  color: white;
 }
 
 .advantages-item:nth-child(3) {
@@ -159,9 +163,9 @@ body {
 }
 
 .advantages-item:nth-child(5) {
-  color: white;
   background-color: rgba(130, 179, 211, 1);
   flex-direction: row-reverse;
+  color: white;
 }
 
 .advantages-photo {
@@ -175,13 +179,11 @@ body {
   font-style: normal;
   line-height: 28px;
   text-transform: uppercase;
-  color: #000000;
 }
 
 .advantages-list p {
   font-size: 18px;
   line-height: 21px;
-  color: #333333;
 }
 
 .comfort {
@@ -199,7 +201,7 @@ body {
 }
 
 .comfort-item:nth-child(2) {
-  background-color: rgba(131, 179, 211, 0.2);
+  background-color: #ffffff;
 }
 
 .comfort-list {
@@ -442,6 +444,7 @@ body {
   display: flex;
   padding-top: 50px;
   padding-bottom: 40px;
+  justify-content: space-between;
 }
 
 .search-title {
@@ -474,6 +477,7 @@ body {
   background-image: url("../images/blurred-background.png");
   background-repeat: no-repeat;
   min-height: 100%;
+  margin-top: 64px;
 }
 
 .hotel-list {
@@ -490,12 +494,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 35px 70px 70px 70px;
 }
 
 .hotel-filters-container {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px
 }
 
 .pagination {
