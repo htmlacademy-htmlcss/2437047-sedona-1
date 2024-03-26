@@ -62,7 +62,7 @@ body {
 }
 
 /*HEADER*/
-.navigation-logo{
+.logo {
   margin-left: 70px;
   position: absolute;
   width: 140px;
@@ -152,6 +152,7 @@ body {
 
 .advantages-item {
   display: flex;
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-read {
@@ -172,10 +173,6 @@ body {
   justify-content: center;
   padding-left: 85px;
   padding-right: 85px;
-}
-
-.advantages-item:nth-child(odd) {
-  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-item:nth-child(even) {
@@ -316,12 +313,13 @@ body {
   margin-bottom: 104px;
 }
 
-.subscribe-field {
+.field {
   display: flex;
+  width: 452px;
 }
 
-.field {
-  width: 452px;
+.subscribe-field {
+  display: flex;
 }
 
 .newsletter-button {
