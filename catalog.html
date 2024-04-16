@@ -95,8 +95,8 @@
                 </a>
               </div>
               <div class="button-activate">
-                <button class="button" type="submit">Применить</button>
-                <button class="button" type="submit">Сбросить</button>
+                <button class="button-apply" type="submit">Применить</button>
+                <button class="button-throw" type="submit">Сбросить</button>
               </div>
             </div>
           </form>
@@ -148,6 +148,7 @@
                 <img class="hotel-card-image" src="images/hotel-2.jpg" alt="Villas at Poco Diablo">
                 <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
               </a>
+              <div class hotel-card-description>
               <b class="hotel-type">Гостиница</b>
               <b class="hotel-card-price">от 5000 Р</b>
               <a class="hotel-card-button" href="#">Подробнее</a>
@@ -155,6 +156,7 @@
               </button>
               <p class="visually-hidden hotel-rating-4">Рейтинг 4 звезды</p>
               <p>РЕЙТИНГ:9,2</p>
+              </div>
             </li>
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
@@ -223,10 +225,10 @@
             <p>Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
           </div>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
-            <div class="subscribe-field">
-              <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
+            <label class="subscribe-field">
+              <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
                 id="newsletter-email" required>
-            </div>
+            </label>
             <button class="button newsletter-button" type="submit">Подписаться
             </button>
           </form>
